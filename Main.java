@@ -11,7 +11,7 @@ public class Main {
         boolean selesai = false;
 
         while (!selesai) {
-            System.out.println("Selamat datang di Shark Laundry!");
+            System.out.println("======= Selamat datang di Shark Laundry =======!");
             System.out.println("1. Tambah Pesanan");
             System.out.println("2. Tampilkan Semua Pesanan");
             System.out.println("3. Keluar");
@@ -28,7 +28,7 @@ public class Main {
                     break;
                 case 3:
                     selesai = true;
-                    System.out.println("Terima kasih! Telah Menggunakan Jasa Shark Laundry.");
+                    System.out.println("======= Terima kasih! Telah Menggunakan Jasa Shark Laundry ========");
                     break;
                 default:
                     System.out.println("Pilihan tidak valid. Silakan pilih lagi.");
@@ -65,7 +65,7 @@ public class Main {
     }
 
     private static void tampilkanSemuaPesanan() {
-        System.out.println("----- Semua Pesanan -----");
+        System.out.println("======= Semua Pesanan =======");
         for (Pesanan pesanan : daftarPesanan) {
             System.out.println(pesanan);
         }

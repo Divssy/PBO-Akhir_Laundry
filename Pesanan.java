@@ -9,14 +9,6 @@ public class Pesanan {
     private JenisLaundry jenisLaundry; // Deklarasi variabel jenisLaundry
     private Petugas petugas; // Deklarasi variabel petugas
 
-    public Pesanan(String namaPelanggan, double beratPakaian, double hargaPerKilogram, JenisLaundry jenisLaundry) {
-        this.namaPelanggan = namaPelanggan;
-        this.beratPakaian = beratPakaian;
-        this.hargaPerKilogram = hargaPerKilogram;
-        this.jenisLaundry = jenisLaundry; // Inisialisasi jenisLaundry
-        this.totalBiaya = beratPakaian * hargaPerKilogram;
-    }
-
     public Pesanan(String namaPelanggan, String alamatPelanggan, String nomorTeleponPelanggan, double beratPakaian, double hargaPerKilogram, Petugas petugas, JenisLaundry jenisLaundry) {
         this.namaPelanggan = namaPelanggan;
         this.alamatPelanggan = alamatPelanggan;
